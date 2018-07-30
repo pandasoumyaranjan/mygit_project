@@ -1,0 +1,133 @@
+12	return 0;
+15	}
+__libc_start_main (main=0x804846d <main>, argc=1, argv=0xbffff174, init=0x80484e0 <__libc_csu_init>, 
+    fini=0x8048550 <__libc_csu_fini>, rtld_fini=0xb7fed180 <_dl_fini>, stack_end=0xbffff16c) at libc-start.c:321
+321	libc-start.c: No such file or directory.
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Starting program: /home/rocky/fact_call_by_value 
+
+Breakpoint 2, main (argc=1, argv=0xbffff174) at fact_call_by_value.c:9
+9	        printf("Enter a number :");
+10	        scanf("%d",&n);
+Undefined command: "5".  Try "help".
+11	        x=fact(n);
+fact (k=5) at fact_call_by_value.c:19
+19	        int f=1;
+20	        while(k > 0)
+22	                 f=f*k;
+23	                 k--;
+20	        while(k > 0)
+22	                 f=f*k;
+23	                 k--;
+20	        while(k > 0)
+22	                 f=f*k;
+23	                 k--;
+20	        while(k > 0)
+22	                 f=f*k;
+23	                 k--;
+20	        while(k > 0)
+22	                 f=f*k;
+23	                 k--;
+$21 = 120
+20	        while(k > 0)
+25	        return f;
+26	}
+main (argc=1, argv=0xbffff174) at fact_call_by_value.c:12
+12	return 0;
+Continuing.
+[Inferior 1 (process 29872) exited normally]
+Starting program: /home/rocky/fact_call_by_value 
+
+Breakpoint 2, main (argc=1, argv=0xbffff174) at fact_call_by_value.c:9
+9	        printf("Enter a number :");
+Continuing.
+[Inferior 1 (process 29878) exited normally]
+The program is not being run.
+4	int fact(int k);
+5	
+6	int main(int argc, char **argv)
+7	{
+8	        int x,n;
+9	        printf("Enter a number :");
+10	        scanf("%d",&n);
+11	        x=fact(n);
+12	return 0;
+13	 
+14	printf("%d",x);
+15	}
+16	
+17	int fact(int k)
+18	{
+19	        int f=1;
+20	        while(k > 0)
+21	        {
+22	                 f=f*k;
+23	                 k--;
+Starting program: /home/rocky/fact_call_by_value 
+
+Breakpoint 2, main (argc=1, argv=0xbffff174) at fact_call_by_value.c:9
+9	        printf("Enter a number :");
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
+Quit
+Undefined command: "cq".  Try "help".
+A debugging session is active.
+
+	Inferior 1 [process 29885] will be killed.
+
+Quit anyway? (y or n) Starting program: /home/rocky/fact_call_by_value 
+[Inferior 1 (process 30519) exited normally]
+The program is not being run.
+Breakpoint 1 at 0x8048476: file fact_call_by_value.c, line 5.
+The program is not being run.
+Starting program: /home/rocky/fact_call_by_value 
+
+Breakpoint 1, main (argc=1, argv=0xbffff174) at fact_call_by_value.c:9
+9	        printf("Enter a number :");
+__printf (format=0x8048570 "Enter a number :") at printf.c:28
+28	printf.c: No such file or directory.
+#0  __printf (format=0x8048570 "Enter a number :") at printf.c:28
+#1  0x08048482 in main (argc=1, argv=0xbffff174) at fact_call_by_value.c:9
+Run till exit from #0  __printf (format=0x8048570 "Enter a number :") at printf.c:28
+main (argc=1, argv=0xbffff174) at fact_call_by_value.c:10
+10	        scanf("%d",&n);
+Value returned is $1 = 16
+11	        x=fact(n);
+fact (k=13) at fact_call_by_value.c:19
+19	        int f=1;
+20	        while(k > 0)
+22	                 f=f*k;
+23	                 k--;
+Run till exit from #0  fact (k=13) at fact_call_by_value.c:23
+0x080484a2 in main (argc=1, argv=0xbffff174) at fact_call_by_value.c:11
+11	        x=fact(n);
+Value returned is $2 = 1932053504
+Continuing.
+[Inferior 1 (process 30524) exited normally]
+Starting program: /home/rocky/fact_call_by_value 
+
+Breakpoint 1, main (argc=1, argv=0xbffff174) at fact_call_by_value.c:9
+9	        printf("Enter a number :");
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08048476 in main at fact_call_by_value.c:5
+	breakpoint already hit 1 time
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x08048476 in main at fact_call_by_value.c:5
+	breakpoint already hit 1 time
+No breakpoint number 1.
+No breakpoints or watchpoints.
+Breakpoint 2 at 0x8048476: file fact_call_by_value.c, line 5.
+No breakpoint number 1.
+Num     Type           Disp Enb Address    What
+2       breakpoint     keep y   0x08048476 in main at fact_call_by_value.c:5
+Undefined command: "enb".  Try "help".
+No breakpoint number 1.
+No breakpoint number 1.
+Num     Type           Disp Enb Address    What
+2       breakpoint     keep y   0x08048476 in main at fact_call_by_value.c:5
+Undefined command: "enb".  Try "help".
+Num     Type           Disp Enb Address    What
+2       breakpoint     keep y   0x08048476 in main at fact_call_by_value.c:5
+Continuing.
+[Inferior 1 (process 30533) exited normally]
+The program is not being run.
